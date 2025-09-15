@@ -12,3 +12,6 @@ ativo BOOLEAN DEFAULT TRUE,
 INSERT INT artistas (nome, tipo, membros, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo)
 VALUES 
 ('Detentos do Rap', 'Grupo', 5, 'RAP', 'Brasil', 1990, 'Baseado Em Fatos Reais', TRUE);
+
+
+SELECT COUNT(*) AS total_artistas FROM artistas;
