@@ -16,9 +16,9 @@ VALUES
 ('Interestelar', 'Filme', '2h 49m', 'Ficção científica e Aventura', 2014, TRUE);
 ('Alien Romulus', 'Filme', '1h 59m', 'Terror e Ficção científica', 2024, TRUE);
 ('Anora', 'Filme', '2h 19m', 'Romance e Comédia', 2024, TRUE),
-('As Tartarugas Ninja', '1h 41m', 'Ação e Ficção científica', 2014, FALSE);
+('As Tartarugas Ninja', 'Filme', '1h 41m', 'Ação e Ficção científica', 2014, FALSE);
 ('Homem-Aranha Sem Volta para Casa', 'Filme', '2h 28m', 'Ação e Ficção científica', 2021, TRUE);
-('Deadpool & Wolverine', 'Filme', '2h 8m', 'Ação e Comédia', 2024, TRUE)
+('Deadpool & Wolverine', 'Filme', '2h 8m', 'Ação e Comédia', 2024, TRUE);
 
 SELECT COUNT(*) AS total_filmes FROM filmes;
 
