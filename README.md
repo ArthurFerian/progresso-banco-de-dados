@@ -25,7 +25,7 @@ CREATE TABLE usuarios (
     data_cadastro DATE
 );
 
-INSERT INTO usuarios (uasrname, email, pontos, data_cadastro)
+INSERT INTO usuarios (username, email, pontos, data_cadastro)
 VALUES
 ('NoobMaster', 'noob@gameflix.com', 1500, '2024-01-15'),
 ('GamerGirl23', 'gamer23@email.com', 2800, '2024-01-18'),
